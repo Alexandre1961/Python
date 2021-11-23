@@ -1,0 +1,6 @@
+print('Phyton 3 input')
+print()
+name = input('Qual seu nome? ')
+idade = input('Qual sua idade ? ')
+peso = ('Qual seu peso ? ')
+print('name = ',name,'idade = ',idade,'peso =')

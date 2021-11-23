@@ -1,0 +1,26 @@
+n = int(input('Digite um numero: '))
+t = 0
+print('='*12)
+print('{}  x {:2} = {}'.format(n, (t), n*t))
+t = t + 1
+print('{}  x {:2} = {}'.format(n, t, n*t))
+t = t + 1
+print('{}  x {:2} = {}'.format(n, t, n*t))
+t = t + 1
+print('{}  x {:2} = {}'.format(n, t, n*t))
+t = t + 1
+print('{}  x {:2} = {}'.format(n, t, n*t))
+t = t + 1
+print('{}  x {:2} = {}'.format(n, t, n*t))
+t = t + 1
+print('{}  x {:2} = {}'.format(n, t, n*t))
+t = t + 1
+print('{}  x {:2} = {}'.format(n, t, n*t))
+t = t + 1
+print('{}  x {:2} = {}'.format(n, t, n*t))
+t = t + 1
+print('{}  x {:2} = {}'.format(n, t, n*t))
+t = t + 1
+print('{}  x {} = {}'.format(n, t, n*t))
+print('='*12)
+

@@ -1,0 +1,2 @@
+Alexandre	60
+Pedro	45

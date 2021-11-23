@@ -1,0 +1,5 @@
+nome = input('Qual seu nome? ')
+print('Ola', nome, 'é um prazer te conhecer')
+# o campo{} será substituido pelo resultado de .format(nome)
+print('Voce é bem vindo {}!'.format(nome))
+print('{}, como posso te ajudar ! '.format(nome))
