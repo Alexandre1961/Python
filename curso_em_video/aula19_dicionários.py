@@ -1,0 +1,61 @@
+print(f'{" DICIONÁRIOS ":&^50}')
+print(f" {' DECLARANDO DICIONÁRIOS ':?^50} ")
+dados = dict()
+dados = {}
+print("dicionários vazios dados = dict() ou dados = {}")
+print("print dados = ", dados)
+print("Iniciando um dicionário:")
+dados = {'nome': 'Alex', 'idade': 25, 'sexo': 'm'}
+print("dados = {'nome': 'Alex', 'idade': 25, 'sexo': 'm'}")
+print("print dados = ", dados)
+print(f"{'-':-^50}")
+print(f"{'ITENS SÃO COMPOSTOS POR KEYS E VALUES':^50}")
+print(f"{' ITENS DE DADOS ':~^50}")
+print("'nome': 'Alex   'idade': 25       'sexo': 'm'")
+print(" ^       ^       ^       ^         ^       ^")
+print(" keys    values  keys    values    keys    values")
+print(f"{'-':~^50}")
+print('dados > ', dados)
+print("As key de dados são 'nome', 'idade´ e 'sexo'")
+print("Os valores são 'Alex' 25 e 'm'")
+print()
+print(f"{' EXTRAINDO CONTEUDO DE DADOS ':?^50}")
+print("dados['nome'] > ", dados['nome'])
+print("dados['idade´] > ", dados['idade'])
+print("dados['sexo'] > ", dados['sexo'])
+print("dados.keys() > ", dados.keys())
+print("dados.values() > ", dados.values())
+print("dados,itens() > ", dados.items())
+print(f"{' COMPOSIÇÃO DE DICIONÁRIOS ':~^50}")
+print("[ ('nome', 'Alex'), ('idade', 25), ('sexo','m') ]")
+print("  (   1 tupla    )  ( 2 tuplas  )  ( 3 tuplas )")
+print("[<<<<< tudo dentro de uma lista composta >>>>>>>]")
+
+print()
+print(f"{' USANDO FOR EM DICIONARIOS ':?^50}")
+print("for keys in dados.keys")
+for keys in dados.keys():
+    print(keys)
+print("\nfor values in dados.values()")
+for values in dados.values():
+    print(values)
+print("\n for itens in dados.items()")
+for itens in dados.items():
+    print(itens)
+print("\nfor key, value in dados.items()")
+for keys, values in dados.items():
+    print(f"key = {keys} > value = {values}")
+print()
+print(f"{' MANIPULANDO OS DICIONÁRIOS ':?^50}")
+print("dados = ", dados)
+print("EXCLUINDO del dados['sexo']")
+del dados['sexo']
+print("dados = ", dados)
+print("ALTERANDO dados['nome'] = 'Pedro'")
+dados['nome'] = 'Pedro'
+print("dados = ",dados)
+print("ADICIONANDO dados['peso'] = 80.3")
+dados['peso'] = 80.3
+print("dados = ", dados)
+print("\033[31mIMPORTANTE LISTA USA numeros EX.: PESSOAS[0]\nDICIONÁRIOS USAM keys EX.: CADASTRO['key']")
+

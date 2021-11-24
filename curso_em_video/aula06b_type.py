@@ -1,0 +1,26 @@
+#aula6b
+n = float(input('Digite um numero : '))
+print('O numero digitado é: {} {}'.format(n,type(n)))
+n = bool(input('Digite algo ou para nada click enter : '))
+# se voce não digitar nada  o valor é False
+print('Voce digitou algo: {} {}'.format(n, type(n)))
+print('')
+n = input(('Digite algo: '))
+print('O que digitou é tipo: ', type(n))
+print('O que digitou é numerico: ', n.isnumeric())
+print('O que digitou é espaço: ', n.isspace())
+print('O que digitou é alpha: ', end='')
+print(n.isalpha())
+print('O que digitou é alphanumerico: ')
+print(n.isalnum())
+print('O que digitou é minúscula: {} {}'.format(n.islower(), type(n)))
+print('O que digitou é maiúscula: {} {}'.format(n.isupper(), type(n)))
+print('O que digitou é ascii: {}'.format(n.isascii()))
+print('O que digitou é digito: {}'.format(n.isdigit()))
+print('O que digitou é decimal: {}'.format(n.isdecimal()))
+print('O que digitou é imprimivél: {}'.format(n.isprintable()))
+print('3.14', type(3.14))
+print('False', type(False))
+print('Alex', type("Alex"))
+
+
